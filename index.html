@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akilan T | Mechatronics Portfolio</title>
+    <meta name="description" content="Portfolio of Akilan T, a Mechatronics Engineering student focused on robotics, embedded systems, and prototyping." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="global-robot-scene" aria-hidden="true">
+      <div class="humanoid humanoid-one"></div>
+      <div class="humanoid humanoid-two"></div>
+      <div class="manipulator manipulator-one"></div>
+      <div class="manipulator manipulator-two"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">AKILAN T</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme" aria-pressed="false">
+            <span class="theme-toggle-icon">☀️</span>
+            <span class="theme-toggle-label">Light</span>
+          </button>
+          <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="robot-scene" aria-hidden="true">
+          <div class="robot-card robot-card-one"></div>
+          <div class="robot-card robot-card-two"></div>
+          <div class="robot-card robot-card-three"></div>
+        </div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal" data-animate="fade-up">
+            <p class="eyebrow">Mechatronics Engineer • Robotics • Embedded Systems</p>
+            <h1>Akilan T</h1>
+            <p class="hero-text">
+              I create intelligent hardware systems that move from concepts to practical prototypes with clean engineering and real-world impact.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="Akilan_T_Resume.pdf" download="Akilan_T_Resume.pdf">Download Resume</a>
+              <a class="btn btn-secondary" href="#projects">Explore Projects</a>
+            </div>
+            <div class="hero-highlights">
+              <span>PLC & Fluid Power</span>
+              <span>Embedded Systems</span>
+              <span>Robotics</span>
+            </div>
+          </div>
+
+          <div class="hero-card reveal" data-animate="fade-up">
+            <img class="profile-photo" src="IMG_20260720_180719.jpg" alt="Akilan T" />
+            <p class="card-label">Quick snapshot</p>
+            <h2>Engineering with purpose</h2>
+            <p>
+              My work blends mechanical design, electronics, and software to build practical systems for automation, sustainability, and smart manufacturing.
+            </p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/akilan23/" target="_blank" rel="noreferrer">LinkedIn<span>↗</span></a>
+              <a href="https://github.com/Akilankec/" target="_blank" rel="noreferrer">GitHub<span>↗</span></a>
+              <a href="https://leetcode.com/u/AKILAN06/" target="_blank" rel="noreferrer">LeetCode<span>↗</span></a>
+            </div>
+            <a class="btn btn-primary card-resume" href="Akilan_T_Resume.pdf" download="Akilan_T_Resume.pdf">View Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-surface about" id="about">
+        <div class="container about-grid">
+          <div class="about-copy reveal" data-animate="fade-up">
+            <p class="eyebrow">About me</p>
+            <h2>Designing practical solutions at the intersection of mechanics and intelligence.</h2>
+            <p>
+              I enjoy taking ideas from sketches and simulations to working prototypes. My experience includes hands-on training in manufacturing, embedded systems, and multidisciplinary project development.
+            </p>
+            <ul class="about-list">
+              <li><strong>Hands-on experience:</strong> CNC milling, drilling, turning, and industrial process exposure</li>
+              <li><strong>Innovation mindset:</strong> created award-winning projects in robotics and sustainable systems</li>
+              <li><strong>Technical approach:</strong> strong blend of analytical thinking, teamwork, and adaptability</li>
+            </ul>
+          </div>
+
+          <div class="about-stats reveal" data-animate="fade-up">
+            <div class="stat-card">
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Years of academic project exposure</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">6+</span>
+              <span class="stat-label">Technical domains explored</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">2</span>
+              <span class="stat-label">National-level innovation participations</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-surface skills" id="skills">
+        <div class="container">
+          <div class="section-heading reveal" data-animate="fade-up">
+            <p class="eyebrow">Core skills</p>
+            <h2>Tools and technologies I work with</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card reveal" data-animate="fade-up">AutoCAD (2D)</div>
+            <div class="skill-card reveal" data-animate="fade-up">SolidWorks</div>
+            <div class="skill-card reveal" data-animate="fade-up">PCB design with Eagle</div>
+            <div class="skill-card reveal" data-animate="fade-up">Arduino IDE</div>
+            <div class="skill-card reveal" data-animate="fade-up">PLC & Fluid Power</div>
+            <div class="skill-card reveal" data-animate="fade-up">Embedded systems</div>
+            <div class="skill-card reveal" data-animate="fade-up">Robotics</div>
+            <div class="skill-card reveal" data-animate="fade-up">Video editing & design</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-surface projects" id="projects">
+        <div class="container">
+          <div class="section-heading reveal" data-animate="fade-up">
+            <p class="eyebrow">Projects & experience</p>
+            <h2>Selected work that reflects my engineering journey</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal" data-animate="fade-up">
+              <div class="project-meta">Industry training</div>
+              <h3>In-Plant Training – Shree Hydraulics</h3>
+              <p>Completed a 3-day training in hydraulic and CNC divisions, gaining hands-on exposure to milling, drilling, turning, and component manufacturing.</p>
+              <span class="project-tag">Manufacturing</span>
+            </article>
+
+            <article class="project-card reveal" data-animate="fade-up">
+              <div class="project-meta">Innovation project</div>
+              <h3>LiFi Communication System</h3>
+              <p>Developed a communication system based on light signal transmission, combining electronics and practical prototyping.</p>
+              <span class="project-tag">Embedded systems</span>
+            </article>
+
+            <article class="project-card reveal" data-animate="fade-up">
+              <div class="project-meta">Sustainable automation</div>
+              <h3>Non-Electrical Solar Tracker</h3>
+              <p>Created a solar tracker concept during the Smart India Hackathon, focusing on efficient and low-cost solar orientation.</p>
+              <span class="project-tag">Automation</span>
+            </article>
+
+            <article class="project-card reveal" data-animate="fade-up">
+              <div class="project-meta">Robotics prototype</div>
+              <h3>Semi-Automated Tomato Harvesting Bot</h3>
+              <p>Designed a robotics prototype for agricultural use, combining mechanical structure and simple automation for harvesting support.</p>
+              <span class="project-tag">Robotics</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-surface" id="contact">
+        <div class="container contact-grid">
+          <div class="reveal" data-animate="fade-up">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Let’s build something useful together.</h2>
+            <p>I’m always interested in internships, robotics projects, and opportunities in embedded systems and automation.</p>
+            <div class="contact-details">
+              <p><strong>Email:</strong> akilanclg@gmail.com</p>
+              <p><strong>Phone:</strong> +91 86673 57877</p>
+              <p><strong>Location:</strong> Perundurai, Tamil Nadu</p>
+            </div>
+          </div>
+
+          <div class="contact-card reveal" data-animate="fade-up">
+            <p class="card-label">Social links</p>
+            <h3>Connect with me</h3>
+            <div class="social-links social-links-stack">
+              <a href="https://www.linkedin.com/in/akilan23/" target="_blank" rel="noreferrer">LinkedIn<span>↗</span></a>
+              <a href="https://github.com/Akilankec/" target="_blank" rel="noreferrer">GitHub<span>↗</span></a>
+              <a href="https://leetcode.com/u/AKILAN06/" target="_blank" rel="noreferrer">LeetCode<span>↗</span></a>
+            </div>
+            <a class="btn btn-primary" href="Akilan_T_Resume.pdf" download="Akilan_T_Resume.pdf">Download Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Designed and built by Akilan T.</p>
+        <p>© 2026</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
